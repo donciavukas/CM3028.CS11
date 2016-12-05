@@ -71,7 +71,6 @@
       <div class = "container">
  <div class = "row">
    <div class = "center-block">
-     <div class = "col-md-9">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -107,7 +106,6 @@
   </a>
 </div>
     </div>
-   </div>
    </div>
    
         </div>
