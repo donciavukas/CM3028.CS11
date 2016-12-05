@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<?php
+<html>
+  <?php
   <head>
     include("dbconnect.php")
     <meta charset="utf-8">
@@ -109,3 +110,4 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 ?>
+</html>
