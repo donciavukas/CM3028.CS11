@@ -44,7 +44,7 @@
           
             <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="clubs.php">Clubs</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
           </ul>      
           
@@ -60,6 +60,7 @@
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
+             <button type="submit" class="btn btn-successR">Register</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
