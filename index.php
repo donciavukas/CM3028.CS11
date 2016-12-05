@@ -67,10 +67,10 @@
     </nav>
     
     
-<div class ="col-md-9">
-    <div class = "center-block">
-      
-     
+
+      <div class = "container">
+ <div class = "row">
+   <div class = "center-block">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -94,8 +94,6 @@
       </div>
     </div>
     ...
-        </div>
-        </div>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -107,6 +105,10 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+    </div>
+   </div>
+   
+        </div>
     </div>
 
     <div class="container">
