@@ -41,13 +41,13 @@
       <div class="container">
         <div class="navbar-header">        
           <a class="navbar-brand" href="#">Go Porthlen</a>
-          <nav>
+          
             <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
             <li role="presentation"><a href="#">About</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
           </ul>      
-          </nav> 
+          
         </div>
         
         
