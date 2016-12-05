@@ -64,9 +64,10 @@
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
+    
+    
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class = "col-md-9">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -90,7 +91,7 @@
       </div>
     </div>
     ...
-  </div>
+        </div>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
