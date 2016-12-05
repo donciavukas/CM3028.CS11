@@ -67,9 +67,9 @@
     </nav>
     
     
-
+<div class ="col-md-9">
     <div class = "center-block">
-      <div class ="col-md-9">
+      
      
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
