@@ -82,13 +82,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="center-block" src="http://placehold.it/1280x720" alt="...">
+      <img class="center-block" src="http://placehold.it/1920x1080" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img class="center-block" src="http://placehold.it/1280x720" alt="...">
+      <img class="center-block" src="http://placehold.it/1920x1080" alt="...">
       <div class="carousel-caption">
         ...
       </div>
