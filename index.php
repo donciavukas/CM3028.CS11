@@ -93,6 +93,12 @@
         ...
       </div>
     </div>
+    <div class="item">
+      <img class="center-block" src="http://placehold.it/1920x1080" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
     ...
 
   <!-- Controls -->
