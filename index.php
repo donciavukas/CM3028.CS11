@@ -78,6 +78,7 @@
   </ol>
 
   <!-- Wrapper for slides -->
+  <div class="center-block" >
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img class="center-block" src="https://placeholdit.imgix.net/~text?txtsize=61&txt=650%C3%97500&w=650&h=500" alt="...">
@@ -93,6 +94,8 @@
     </div>
     ...
         </div>
+    
+    </div>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
