@@ -84,7 +84,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="...">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=61&txt=650%C3%97500&w=650&h=500" alt="...">
       <div class="carousel-caption">
         ...
       </div>
