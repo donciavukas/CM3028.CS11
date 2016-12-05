@@ -67,7 +67,7 @@
     
     
 
-    <div class = "col-md-9">
+    <div class = "row">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
