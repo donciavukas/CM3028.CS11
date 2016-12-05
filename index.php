@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <?php
+  
   <head>
+    <?php
     include("dbconnect.php")
+      ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -109,5 +111,5 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
-?>
+
 </html>
