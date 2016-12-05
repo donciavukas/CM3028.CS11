@@ -68,7 +68,7 @@
     
     
 
-    <div class = "col-md-4">
+    <div class = "center-block">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
