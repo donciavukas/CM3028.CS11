@@ -43,7 +43,7 @@
           <a class="navbar-brand" href="#">Go Porthlen</a>
           
             <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="home.php">Home</a></li>
+            <li role="presentation" class="active"><a href="index.php">Home</a></li>
             <li role="presentation"><a href="clubs.php">Clubs</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
           </ul>      
