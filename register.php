@@ -32,6 +32,35 @@
   </head>
 
   <body>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">        
+          <a class="navbar-brand" href="#">Go Porthlen</a>
+          
+            <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="clubs.php">Clubs</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>      
+          
+        </div>
+        
+        
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="submit" class="btn btn-successR"> <a href="register.php">Register</a></button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 
     <div class="container">
 
