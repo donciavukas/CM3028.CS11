@@ -10,6 +10,9 @@ if(isset($_POST['sButton'])){
   $password = mysql_real_escape_string($_POST['inputPassword']);
   $password2 = mysql_real_escape_string($_POST['inputPassword2']);
   echo $firstName;
+  echo $lastName;
+  echo $email;
+  echo $password;
   /*
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
