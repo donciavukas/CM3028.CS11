@@ -21,6 +21,8 @@ if(isset($_POST['sButton'])){
     header("Location: index.php");
   }else{
      $_SESSION['message'] = "The two passwords did not match";
+     echo $password;
+     echo $password2;
      echo mysqli_num_rows($result);
      //header("Location: register.php");
   }
