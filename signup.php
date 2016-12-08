@@ -9,7 +9,7 @@ if(isset($_POST['sButton'])){
   $password2 = $_POST['inputPassword2'];
  
   $sql = "SELECT email FROM user WHERE email = '$email'";
-  $result = mysqli_query($db, $sql);
+  $result = $email
  
   if(($password == $password2)&&(mysqli_num_rows($result)>0)){
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
