@@ -93,9 +93,9 @@ session_start();
         
         
         
-        <label for="inputPassword" class="sr-only control-label" >Passwords do not match</label>
+        <label for="inputPassword" class="control-label" >Passwords do not match</label>
         <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
-        <label for="inputPassword2" class="sr-only label label-warning">Re-enter Password</label>
+        <label for="inputPassword2" class="sr-only ">Re-enter Password</label>
         <input type="password" name="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
        
         <div class="checkbox">
