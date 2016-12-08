@@ -51,10 +51,10 @@
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" action="login.php" method="POST">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="text" placeholder="Email" class="form-control" name = "inputEmail">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input type="password" placeholder="Password" class="form-control" name = "inputPassword">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
             <a class="btn btn-default" href="register.php">Register</a>
