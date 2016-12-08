@@ -45,6 +45,4 @@ if (mysqli_query($db, $sql)) {
 }
 */
 
-//header("Location: index.php");
-mysqli_close($db);
 
