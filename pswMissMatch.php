@@ -84,10 +84,10 @@ session_start();
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>       
         
-        <label for="inputPassword" class="sr-only" >Password</label>
-        <input type="password" name="inputPassword" class="form-control label label-warning" placeholder="Password" required>
-        <label for="inputPassword2" class="sr-only">Re-enter Password</label>
-        <input type="password" name="inputPassword2" class="form-control label label-warning" placeholder="Re-enter Password" required>
+        <label for="inputPassword" class="sr-only label label-warning" >Password</label>
+        <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="inputPassword2" class="sr-only label label-warning">Re-enter Password</label>
+        <input type="password" name="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
        
         <div class="checkbox">
           <label>
