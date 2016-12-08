@@ -18,6 +18,8 @@ if(isset($_POST['sButton'])){
     $_SESSION['message'] = "You are now logged in";
     $_SESSION['email'] = $email;
     echo mysqli_num_rows($result);
+    echo $password;
+    echo $password2;
     header("Location: index.php");
   }else{
      $_SESSION['message'] = "The two passwords did not match";
