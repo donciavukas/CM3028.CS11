@@ -47,22 +47,26 @@
           
         </div>
         
-        
+        <div class ="container">
         <div id="navbar" class="navbar-collapse collapse">
+          <div class="form-group">
           <form class="navbar-form navbar-right" action="login.php" method="POST">
-            <div class="form-group">
+            
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">
-            </div>
+            
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control" name = "inputPassword">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
             <a class="btn btn-default" href="register.php">Register</a>
           </form>
+            </div>
            
         </div><!--/.navbar-collapse -->
       </div>
+        </div>
     </nav>
+      
   <body>
 
       <div class = "container">
