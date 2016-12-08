@@ -23,7 +23,6 @@ lastname VARCHAR(30) NOT NULL,
 email VARCHAR(50),
 reg_date TIMESTAMP
 )";
-mysqli_query($db, $sql)
 
 if (mysqli_query($db, $sql)) {
     echo "Table MyGuests created successfully";
