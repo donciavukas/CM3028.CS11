@@ -93,18 +93,19 @@ session_start();
         
         <div class="form-group has-error has-feedback">
       <label class="col-sm-2 control-label" for="inputPassword">Passwords do not match</label>
-      
+      <div>
         <input type="text" class="form-control" name="inputPassword">
         <span class="glyphicon glyphicon-remove form-control-feedback"></span>
       </div>
+        </div>
     
         
          <div class="form-group has-error has-feedback">
       <label class="col-sm-2 control-label" for="inputPassword2">Passwords do not match</label>
-      
+      <div>
         <input type="text" class="form-control" name="inputPassword2">
         <span class="glyphicon glyphicon-remove form-control-feedback"></span>
-      
+           </div>
     </div>
         
         
