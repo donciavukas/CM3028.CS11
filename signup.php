@@ -6,7 +6,7 @@ if(isset($_POST['sButton'])){
   session_start();
   $firstName = mysql_real_escape_string($_POST['inputName']);
   $lastName = mysql_real_escape_string($_POST['inputSurname']);
-  $email = mysql_real_escape_string($_POST['inputEmail']);
+  $email = /*mysql_real_escape_string*/($_POST['inputEmail']);
   $password = mysql_real_escape_string($_POST['inputPassword']);
   $password2 = mysql_real_escape_string($_POST['inputPassword2']);
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
