@@ -22,7 +22,7 @@ if(isset($_POST['sButton'])){
   echo $lastName;
   echo $email;
   echo $password;
-  */
+
   /*
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
@@ -37,9 +37,9 @@ if(isset($_POST['sButton'])){
     echo mysqli_num_rows($result)
      $_SESSION['message'] = "The two passwords did not match";
      header("Location: register.php");
-  }*/
+  }
 }
-
+/*
 //$sql = "INSERT INTO user (first, last, email, password) VALUES ('Donce','Storas', 'lel@gmail.com', 'hue')"; 
 
 //$sql = "INSERT INTO user (id, first, last, email, password) VALUES(1,'hi', 'bye', 'hello@gmail.com', '123')"
