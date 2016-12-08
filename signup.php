@@ -1,5 +1,6 @@
 <?php
 include 'DBCONNECT.php';
+session_start();
 
 if(isset($_POST['sButton'])){
   session_start();
