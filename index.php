@@ -48,12 +48,10 @@
         </div>
         
         <div class ="container">
-        <div id="navbar" class="navbar-collapse collapse">
           <div class="form-group">
-          <form class="navbar-form navbar-right" action="login.php" method="POST">
-            
-              <input type="text" placeholder="Email" class="form-control" name = "inputEmail">
-            
+        <div id="navbar" class="navbar-collapse collapse"> 
+          <form class="navbar-form navbar-right" action="login.php" method="POST">    
+              <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control" name = "inputPassword">
             </div>
