@@ -63,7 +63,7 @@
     </nav>
 
     <div class="container">
-
+    <div class="form-group">
       <form class="form-signin">
         <h2 class="form-signin-heading">Register new user</h2>
         <label for="inputName" class="sr-only">Name</label>
@@ -84,6 +84,7 @@
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
       </form>
+      </div>
 
     </div> <!-- /container -->
 
