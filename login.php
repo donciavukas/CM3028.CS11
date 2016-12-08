@@ -2,8 +2,8 @@
 	include 'DBCONNECT.php'
   session_start();
 
-	$email = $_POST ['inputEmail'];
-	$password = $_POST ['inputPassword'];
+	//$email = $_POST ['inputEmail'];
+	//$password = $_POST ['inputPassword'];
   //echo 'ciulpk';
 /*
 	$sql = "SELECT email, password FROM user WHERE (email = '$email') AND (password='$password')";
