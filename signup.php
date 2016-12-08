@@ -17,7 +17,7 @@ $password = $_POST['inputPassword'];
 
 mysqli_query($db,"SELECT * FROM users");
 mysqli_query($db,"INSERT INTO users (first,last,email, password) 
-VALUES ('$first', '$last', '$email', '$password')");
+VALUES ('s', 'd', 'h@gmail.com', 'g')");
 header("Location: index.php");
 mysqli_close($db);
 
