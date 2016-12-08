@@ -9,10 +9,10 @@ if(isset($_POST['sButton'])){
   $email = $_POST['inputEmail'];
   $password = $_POST['inputPassword'];
   $password2 = $_POST['inputPassword2'];
-  $sql = "SELECT email FROM user WHERE email = '".$email"'";
-  $result = mysqli_query($db, $sql);
+  $sql1 = "SELECT email FROM user WHERE email = '".$email"'";
+  $result = mysqli_query($db, $sql1);
   
-  if(($password == $password2)&&($email != $result)){
+  if(($password == $password2)&&($result->num_rows)){
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
     mysqli_query($db, $sql);
     $_SESSION['message'] = "You are now logged in";
