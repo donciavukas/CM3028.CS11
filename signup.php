@@ -16,7 +16,7 @@ $sql = "INSERT INTO user (first, last, email, password) VALUES ('$first', '$last
  //     '(first, last, email, password) '.
   //    'VALUES (inputName, inputSurname, inputEmail, inputPassword)';
 
-//mysqli_query($db, $sql);
+$result = mysqli_query($db, $sql);
 
 if (mysqli_query($db, $sql)) {
     echo "success";
