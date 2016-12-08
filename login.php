@@ -4,7 +4,7 @@
 
 	$email = $_POST ['inputEmail'];
 	$password = $_POST ['inputPassword'];
-  echo $email;
+  echo 'ciulpk';
 /*
 	$sql = "SELECT email, password FROM user WHERE (email = '$email') AND (password='$password')";
 	$result = mysqli_query($db,$sql);
