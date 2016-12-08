@@ -12,19 +12,15 @@ if(isset($_POST['sButton'])){
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
   
-  if(mysqli_num_rows($result) >1){
+  if(($password == $password2)&&(mysqli_num_rows($result)=0)){
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
     mysqli_query($db, $sql);
     $_SESSION['message'] = "You are now logged in";
     $_SESSION['email'] = $email;
     echo mysqli_num_rows($result);
-    echo $password;
-    echo $password2;
     header("Location: index.php");
   }else{
      $_SESSION['message'] = "The two passwords did not match";
-     echo $password;
-     echo $password2;
      echo mysqli_num_rows($result);
      //header("Location: register.php");
   }
