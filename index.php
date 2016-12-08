@@ -40,7 +40,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">        
-          <a class="navbar-brand" href="#">Go Porthlen</a>
+          <a class="navbar-brand" href="index.php">Go Porthlen</a>
           
             <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
@@ -60,7 +60,7 @@
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
-            <button type="button" class="btn btn-default" href="register.php"> Register</button>
+            <button type="button" class="btn btn-default"> <a>href="register.php" Register</a></button>
           </form>
            
         </div><!--/.navbar-collapse -->
