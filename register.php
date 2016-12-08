@@ -82,22 +82,13 @@ session_start();
         <label for="inputSurname" class="sr-only">Surname</label>
         <input type="name" name="inputSurname" class="form-control" placeholder="Surname" required autofocus>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>
+        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>       
         
-        
-        <input type="password" data-minlength="6" class="form-control" name="inputPassword" placeholder="Password" required>
-        <div class="help-block">Minimum of 6 characters</div>
-      
-      
-        <input type="password" class="form-control" name="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
-        <div class="help-block with-errors"></div>
-        
-        <!--
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
         <label for="inputPassword2" class="sr-only">Re-enter Password</label>
         <input type="password" name="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
-       -->
+       
         <div class="checkbox">
           <label>
             <input type="checkbox" value="iAgree"> I Agree to the terms of service.
