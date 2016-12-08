@@ -9,11 +9,11 @@ if(isset($_POST['sButton'])){
   $email = mysql_real_escape_string($_POST['inputEmail']);
   $password = mysql_real_escape_string($_POST['inputPassword']);
   $password2 = mysql_real_escape_string($_POST['inputPassword2']);
-  
+  echo $firstName;
+  /*
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
-  echo mysqli_num_rows($result);
- /* 
+ 
   if(($password == $password2)&&(mysqli_num_rows($result)=0)){
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
     mysqli_query($db, $sql);
