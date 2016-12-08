@@ -14,7 +14,7 @@ if(isset($_POST['sButton'])){
   if(($password == $password2)&&(mysqli_num_rows($result)>0)){
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
     mysqli_query($db, $sql);
-    header("Location: index.php");
+    echo mysqli_num_rows($result)
   }else{
      $_SESSION['message'] = "The two passwords did not match";
      header("Location: register.php");
