@@ -14,7 +14,7 @@ $sql = "INSERT INTO user (first, last, email, password) VALUES('$first', '$last'
  //     '(first, last, email, password) '.
   //    'VALUES (inputName, inputSurname, inputEmail, inputPassword)';
 
-$result = mysqli_query($db, $sql);
+mysqli_query($db, $sql);
 
 /*
 mysqli_query($db,"SELECT * FROM users");
