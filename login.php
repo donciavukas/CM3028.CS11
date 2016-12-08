@@ -1,5 +1,6 @@
 <?ph
 	include 'DBCONNECT.php'
+  session_start();
 
 	$email = $_POST ['inputEmail'];
 	$password = $_POST ['inputPassword'];
