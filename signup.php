@@ -9,8 +9,8 @@ if(isset($_POST['sButton'])){
   $email = $_POST['inputEmail'];
   $password = $_POST['inputPassword'];
   $password2 = $_POST['inputPassword2'];
-  $sql1 = "SELECT email FROM user WHERE email = '".$email"'";
-  $result = mysqli_query($db, $sql1);
+  $sql = "SELECT email FROM user WHERE email = '".$email"'";
+  $result = mysqli_query($db, $sql);
   
   if(($password == $password2)&&($email != $result)){
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
