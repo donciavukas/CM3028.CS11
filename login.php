@@ -1,7 +1,7 @@
 <?ph
 	include 'DBCONNECT.php'
 
-	$email = $_POST ['inputName'];
+	$email = $_POST ['inputEmail'];
 	$password = $_POST ['inputPassword'];
 
 	$sql = "SELECT email user WHERE email = $email AND password=$password";
