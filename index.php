@@ -47,9 +47,8 @@
           
         </div>
         
-        <div class ="container">
+       
           <div class="form-group">
-        <div id="navbar" class="navbar-collapse collapse"> 
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
@@ -59,10 +58,7 @@
             <a class="btn btn-default" href="register.php">Register</a>
           </form>
             </div>
-           
-        </div><!--/.navbar-collapse -->
       </div>
-        </div>
     </nav>
       
   <body>
