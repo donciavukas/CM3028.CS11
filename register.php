@@ -65,6 +65,7 @@ session_start();
       </div>
     </nav>
 
+    <div class = "row">
     <div class="container">
     <div class="form-group">
       <form class="form-signin" action="signup.php" method="POST">
@@ -87,6 +88,7 @@ session_start();
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
       </form>
+      </div>
       </div>
 
     </div> <!-- /container -->
