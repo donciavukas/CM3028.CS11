@@ -7,6 +7,11 @@ $last = $_POST['inputSurname'];
 $email = $_POST['inputEmail'];
 $password = $_POST['inputPassword'];
 
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+
 //$sql = "INSERT INTO user (first, last, email, password) VALUES('$first', '$last', '$email', '$password')"
 //$sql = "INSERT INTO user (id, first, last, email, password) VALUES(1,'hi', 'bye', 'hello@gmail.com', '123')"
 //  $sql = 'INSERT INTO user '.
