@@ -75,15 +75,15 @@ session_start();
       <form class="form-signin" action="signup.php" method="POST">
         <h2 class="form-signin-heading">Register new user</h2>
         <label for="inputName" class="sr-only">Name</label>
-        <input type="text" name="inputName" class="form-control" placeholder="Name" required autofocus>
+        <input type="name" name="inputName" class="form-control" placeholder="Name" required autofocus>
         <label for="inputSurname" class="sr-only">Surname</label>
-        <input type="name" id="inputSurname" class="form-control" placeholder="Surname" required autofocus>
+        <input type="name" name="inputSurname" class="form-control" placeholder="Surname" required autofocus>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
         <label for="inputPassword2" class="sr-only">Re-enter Password</label>
-        <input type="password" id="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
+        <input type="password" name="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
         
         <div class="checkbox">
           <label>
