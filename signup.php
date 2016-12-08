@@ -17,12 +17,10 @@ if(isset($_POST['sButton'])){
     mysqli_query($db, $sql);
     $_SESSION['message'] = "You are now logged in";
     $_SESSION['email'] = $email;
-    echo mysqli_num_rows($result);
     header("Location: index.php");
   }else{
      $_SESSION['message'] = "The two passwords did not match";
-     echo mysqli_num_rows($result);
-     //header("Location: register.php");
+     header("Location: register.php");
   }
 }
 
