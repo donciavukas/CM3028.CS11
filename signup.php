@@ -2,15 +2,15 @@
 session_start();
 include 'DBCONNECT.php';
 
-$first = $_POST['inputName'];
-$last = $_POST['inputSurname'];
+$firstName = $_POST['inputName'];
+$lastName = $_POST['inputSurname'];
 $email = $_POST['inputEmail'];
 $password = $_POST['inputPassword'];
 
 
 //$sql = "INSERT INTO user (first, last, email, password) VALUES ('Donce','Storas', 'lel@gmail.com', 'hue')"; 
 
-$sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$first', '$last', '$email', '$password')";
+$sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
 //$sql = "INSERT INTO user (id, first, last, email, password) VALUES(1,'hi', 'bye', 'hello@gmail.com', '123')"
 //  $sql = 'INSERT INTO user '.
  //     '(first, last, email, password) '.
