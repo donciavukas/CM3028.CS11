@@ -91,12 +91,23 @@ session_start();
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>  
         
+        <div class="form-group has-error has-feedback">
+      <label class="col-sm-2 control-label" for="inputPassword">Passwords do not match</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" name="inputPassword">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+      </div>
+    </div>
+        
+         <div class="form-group has-error has-feedback">
+      <label class="col-sm-2 control-label" for="inputPassword2">Passwords do not match</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" name="inputPassword2">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+      </div>
+    </div>
         
         
-        <label for="inputPassword" class="control-label" >Passwords do not match</label>
-        <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
-        <label for="inputPassword2" class="sr-only ">Re-enter Password</label>
-        <input type="password" name="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
        
         <div class="checkbox">
           <label>
