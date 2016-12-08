@@ -2,14 +2,14 @@
 include 'DBCONNECT.php';
 session_start();
   $firstName = $_POST['inputName'];
-  $lastName = mysql_real_escape_string($_POST['inputSurname']);
-  $email = mysql_real_escape_string($_POST['inputEmail']);
-  $password = mysql_real_escape_string($_POST['inputPassword']);
-  $password2 = mysql_real_escape_string($_POST['inputPassword2']);
+  //$lastName = mysql_real_escape_string($_POST['inputSurname']);
+  //$email = mysql_real_escape_string($_POST['inputEmail']);
+  //$password = mysql_real_escape_string($_POST['inputPassword']);
+  //$password2 = mysql_real_escape_string($_POST['inputPassword2']);
   echo $firstName;
-  echo $lastName;
-  echo $email;
-  echo $password;
+  //echo $lastName;
+  //echo $email;
+  //echo $password;
 /*
 if(isset($_POST['sButton'])){
   session_start();
