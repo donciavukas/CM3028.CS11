@@ -4,12 +4,12 @@ session_start();
 
 if(isset($_POST['sButton'])){
   session_start();
-  $firstName = $_POST['inputName'];
-  $lastName = $_POST['inputSurname'];
-  $email = $_POST['inputEmail'];
-  $password = $_POST['inputPassword'];
-  $password2 = $_POST['inputPassword2'];
-  $sql1 = "SELECT email FROM user WHERE email = '".$email."'";
+  $firstName = mysql_real_escape_string($_POST['inputName']);
+  $lastName = mysql_real_escape_string($_POST['inputSurname']);
+  $email = mysql_real_escape_string($_POST['inputEmail']);
+  $password = mysql_real_escape_string($_POST['inputPassword']);
+  $password2 = mysql_real_escape_string($_POST['inputPassword2']);
+  $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
   
   if(($password == $password2)&&(!($result->num_rows))){
