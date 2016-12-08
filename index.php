@@ -48,7 +48,7 @@
         </div>
         
        
-          <div class="form-group">
+          <div class="form-group" id = "loginTest">
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
