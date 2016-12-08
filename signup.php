@@ -1,6 +1,7 @@
 <?php
 session_start();
-include 'DBCONNECT.php';
+//include 'DBCONNECT.php';
+$db = mysqli_connect("br-cdbr-azure-south-b.cloudapp.net", "b516a86d1fb393", "e5b1ec77", "web_data");
 
 $first = $_POST['inputName'];
 $last = $_POST['inputSurname'];
