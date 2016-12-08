@@ -1,5 +1,5 @@
 <?php
-	include 'DBCONNECT.php'
+	include 'DBCONNECT.php';
   session_start();
 
 	$email = $_POST ['inputEmail'];
