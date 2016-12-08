@@ -1,6 +1,6 @@
 <?php
 session_start();
-//include 'DBCONNECT.php';
+include 'DBCONNECT.php';
 
 $first = $_POST['inputName'];
 $last = $_POST['inputSurname'];
