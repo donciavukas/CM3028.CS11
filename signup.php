@@ -2,10 +2,10 @@
 session_start();
 include 'DBCONNECT.php';
 
-$first = $_POST['first'];
-$last = $_POST['last'];
-$email = $_POST['email'];
-$password = $_POST['password'];
+$first = $_POST['inputName'];
+$last = $_POST['inputSurname'];
+$email = $_POST['inputEmail'];
+$password = $_POST['inputPassword'];
 
 echo $first;
 echo $last;
