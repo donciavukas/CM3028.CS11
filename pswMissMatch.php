@@ -89,9 +89,11 @@ session_start();
         <label for="inputSurname" class="sr-only">Surname</label>
         <input type="name" name="inputSurname" class="form-control" placeholder="Surname" required autofocus>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>       
+        <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>  
         
-        <label for="inputPassword" class="sr-only label label-warning" >Password</label>
+        
+        
+        <label for="inputPassword" class="sr-only control-label" >Passwords do not match</label>
         <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
         <label for="inputPassword2" class="sr-only label label-warning">Re-enter Password</label>
         <input type="password" name="inputPassword2" class="form-control" placeholder="Re-enter Password" required>
