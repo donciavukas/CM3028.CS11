@@ -10,7 +10,7 @@ $password = $_POST['inputPassword'];
 
 //$sql = "INSERT INTO user (first, last, email, password) VALUES ('Donce','Storas', 'lel@gmail.com', 'hue')"; 
 
-$sql = "INSERT INTO user2 (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
+$sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
 //$sql = "INSERT INTO user (id, first, last, email, password) VALUES(1,'hi', 'bye', 'hello@gmail.com', '123')"
 //  $sql = 'INSERT INTO user '.
  //     '(first, last, email, password) '.
