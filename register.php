@@ -33,9 +33,7 @@ session_start();
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <body> 
-    <div class = "row">
+  <div class = "row">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">        
@@ -65,6 +63,9 @@ session_start();
       </div>
     </nav>
     </div>
+
+  <body> 
+    
     
     
 
