@@ -8,7 +8,7 @@ $email = $_POST['inputEmail'];
 $password = $_POST['inputPassword'];
 
 
-//$sql = "INSERT INTO user (first, last, email, password) VALUES('$first', '$last', '$email', '$password')"
+$sql = "INSERT INTO user (first, last, email, password) VALUES('$first', '$last', '$email', '$password')"
 //$sql = "INSERT INTO user (id, first, last, email, password) VALUES(1,'hi', 'bye', 'hello@gmail.com', '123')"
 //  $sql = 'INSERT INTO user '.
  //     '(first, last, email, password) '.
@@ -16,16 +16,8 @@ $password = $_POST['inputPassword'];
 
 //mysqli_query($db, $sql);
 
-$sql = "CREATE TABLE MyGuests (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-firstname VARCHAR(30) NOT NULL,
-lastname VARCHAR(30) NOT NULL,
-email VARCHAR(50),
-reg_date TIMESTAMP
-)";
-
 if (mysqli_query($db, $sql)) {
-    echo "Table MyGuests created successfully";
+    echo "success";
 } else {
     echo "Error creating table: " . mysqli_error($conn);
 }
