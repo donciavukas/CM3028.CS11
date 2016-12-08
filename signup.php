@@ -1,7 +1,7 @@
 <?php
 include 'DBCONNECT.php';
 session_start();
-  $firstName = $_POST['inputName'];
+  $firstName = mysql_real_escape_string($_POST['inputName']);
   //$lastName = mysql_real_escape_string($_POST['inputSurname']);
   //$email = mysql_real_escape_string($_POST['inputEmail']);
   //$password = mysql_real_escape_string($_POST['inputPassword']);
