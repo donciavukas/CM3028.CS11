@@ -20,6 +20,7 @@ if(isset($_POST['sButton'])){
     header("Location: index.php");
   }else{
      $_SESSION['message'] = "The two passwords did not match";
+     header("Location: register.php");
   }
 }
 
