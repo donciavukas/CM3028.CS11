@@ -1,11 +1,10 @@
 <?php
-	//include 'DBCONNECT.php'
-  //session_start();
+	include 'DBCONNECT.php'
+  session_start();
 
-	//$email = $_POST ['inputEmail'];
-	//$password = $_POST ['inputPassword'];
-  echo 'ciulpk';
-/*
+	$email = $_POST ['inputEmail'];
+	$password = $_POST ['inputPassword'];
+
 	$sql = "SELECT email, password FROM user WHERE (email = '$email') AND (password='$password')";
 	$result = mysqli_query($db,$sql);
 
@@ -14,4 +13,4 @@
 	}else{
 		echo "Logged in";
 	}
-*/
+
