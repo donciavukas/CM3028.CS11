@@ -84,14 +84,14 @@ session_start();
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>
         
-        <div class="form-group">
+        
         <input type="password" data-minlength="6" class="form-control" name="inputPassword" placeholder="Password" required>
         <div class="help-block">Minimum of 6 characters</div>
-      </div>
-      <div class="form-group">
+      
+      
         <input type="password" class="form-control" name="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
         <div class="help-block with-errors"></div>
-        </div>
+        
         
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
