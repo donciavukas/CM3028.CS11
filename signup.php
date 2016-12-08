@@ -3,7 +3,7 @@ session_start();
 include 'DBCONNECT.php';
 
 $first = $_POST['inputName'];
-$last = $_POST['#inputSurname'];
+$last = $_POST('#inputSurname');
 $email = $_POST['inputEmail'];
 $password = $_POST['inputPassword'];
 
