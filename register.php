@@ -34,8 +34,7 @@ session_start();
     <![endif]-->
   </head>
 
-  <body>
-    
+  <body> 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">        
@@ -65,8 +64,7 @@ session_start();
       </div>
     </nav>
 
-    <div class = "row">
-    <div class="container">
+  
     <div class="form-group">
       <form class="form-signin" action="signup.php" method="POST">
         <h2 class="form-signin-heading">Register new user</h2>
@@ -89,9 +87,7 @@ session_start();
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
       </form>
       </div>
-      </div>
-
-    </div> <!-- /container -->
+   
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
