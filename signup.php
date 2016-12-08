@@ -19,4 +19,5 @@ mysqli_query($db,"SELECT * FROM users");
 mysqli_query($db,"INSERT INTO users (first,last,email, password) 
 VALUES ('$first', '$last', '$email', '$password')");
 header("Location: index.php");
+mysqli_close($db);
 
