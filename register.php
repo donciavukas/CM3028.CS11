@@ -35,6 +35,7 @@ session_start();
   </head>
 
   <body> 
+    <div class = "row">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">        
@@ -63,6 +64,7 @@ session_start();
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
+    </div>
 
   
     <div class="form-group">
