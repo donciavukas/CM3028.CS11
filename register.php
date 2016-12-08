@@ -83,6 +83,16 @@ session_start();
         <input type="name" name="inputSurname" class="form-control" placeholder="Surname" required autofocus>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" name="inputEmail" class="form-control" placeholder="Email address" required>
+        
+        <div class="form-group">
+        <input type="password" data-minlength="6" class="form-control" name="inputPassword" placeholder="Password" required>
+        <div class="help-block">Minimum of 6 characters</div>
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" name="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
+        <div class="help-block with-errors"></div>
+        </div>
+        
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="inputPassword" class="form-control" placeholder="Password" required>
         <label for="inputPassword2" class="sr-only">Re-enter Password</label>
@@ -93,7 +103,7 @@ session_start();
             <input type="checkbox" value="iAgree"> I Agree to the terms of service.
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name = "sButton">Sign up</button>
       </form>
       </div>
         
