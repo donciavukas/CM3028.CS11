@@ -6,7 +6,7 @@ session_start();
   //$email = mysql_real_escape_string($_POST['inputEmail']);
   //$password = mysql_real_escape_string($_POST['inputPassword']);
   //$password2 = mysql_real_escape_string($_POST['inputPassword2']);
-  echo $firstName;
+  echo mysqli_real_escape_string($firstName);
   //echo $lastName;
   //echo $email;
   //echo $password;
