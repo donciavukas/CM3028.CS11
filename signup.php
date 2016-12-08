@@ -1,29 +1,15 @@
 <?php
 include 'DBCONNECT.php';
 session_start();
-  $firstName = mysql_real_escape_string($_POST['inputName']);
-  //$lastName = mysql_real_escape_string($_POST['inputSurname']);
-  //$email = mysql_real_escape_string($_POST['inputEmail']);
-  //$password = mysql_real_escape_string($_POST['inputPassword']);
-  //$password2 = mysql_real_escape_string($_POST['inputPassword2']);
-  echo mysqli_real_escape_string($firstName);
-  //echo $lastName;
-  //echo $email;
-  //echo $password;
-/*
+
 if(isset($_POST['sButton'])){
   session_start();
-  $firstName = mysql_real_escape_string($_POST['inputName']);
-  $lastName = mysql_real_escape_string($_POST['inputSurname']);
-  $email = mysql_real_escape_string($_POST['inputEmail']);
-  $password = mysql_real_escape_string($_POST['inputPassword']);
-  $password2 = mysql_real_escape_string($_POST['inputPassword2']);
-  echo $firstName;
-  echo $lastName;
-  echo $email;
-  echo $password;
-
-  /*
+  $firstName = $_POST['inputName'];
+  $lastName = $_POST['inputSurname'];
+  $email = $_POST['inputEmail'];
+  $password = $_POST['inputPassword'];
+  $password2 = $_POST['inputPassword2'];
+  
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
  
@@ -39,20 +25,7 @@ if(isset($_POST['sButton'])){
      header("Location: register.php");
   }
 }
-/*
-//$sql = "INSERT INTO user (first, last, email, password) VALUES ('Donce','Storas', 'lel@gmail.com', 'hue')"; 
 
-//$sql = "INSERT INTO user (id, first, last, email, password) VALUES(1,'hi', 'bye', 'hello@gmail.com', '123')"
-//  $sql = 'INSERT INTO user '.
- //     '(first, last, email, password) '.
-  //    'VALUES (inputName, inputSurname, inputEmail, inputPassword)';
 
-/*
-if (mysqli_query($db, $sql)) {
-    echo "success";
-} else {
-    echo "Error creating table: " . mysqli_error($conn);
-}
-*/
 
 
