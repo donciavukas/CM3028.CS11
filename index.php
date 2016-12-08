@@ -59,9 +59,10 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>          
+            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="button" class="btn btn-default" href="register.php"> Register</button>
           </form>
-           <button type="button" class="btn btn-success" href="register.php"> Register</button>
+           
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
