@@ -34,9 +34,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">        
@@ -66,8 +63,7 @@
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
-    
-    
+  <body>
 
       <div class = "container">
  <div class = "row">
