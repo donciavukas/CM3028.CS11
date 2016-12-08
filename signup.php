@@ -2,6 +2,10 @@
 session_start();
 include 'DBCONNECT.php';
 
+if (!$db) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
 $first = $_POST['inputName'];
 $last = $_POST['inputSurname'];
 $email = $_POST['inputEmail'];
