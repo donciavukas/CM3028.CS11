@@ -8,7 +8,7 @@ $email = $_POST['inputEmail'];
 $password = $_POST['inputPassword'];
 
 //$sql = "INSERT INTO user (first, last, email, password) VALUES('$first', '$last', '$email', '$password')"
-$sql = "INSERT INTO user (first, last, email, password) VALUES($first, $last, $email, $password)"
+$sql = "INSERT INTO user (first, last, email, password) VALUES('hi', 'bye', 'hello@gmail.com', '123')"
 $result = mysql_query($sql, $db);
 header("Location: index.php");
 
