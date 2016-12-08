@@ -1,4 +1,4 @@
-<?ph
+<?php
 	//include 'DBCONNECT.php'
   //session_start();
 
