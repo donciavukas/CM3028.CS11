@@ -1,7 +1,16 @@
 <?php
 include 'DBCONNECT.php';
 session_start();
-
+  $firstName = mysql_real_escape_string($_POST['inputName']);
+  $lastName = mysql_real_escape_string($_POST['inputSurname']);
+  $email = mysql_real_escape_string($_POST['inputEmail']);
+  $password = mysql_real_escape_string($_POST['inputPassword']);
+  $password2 = mysql_real_escape_string($_POST['inputPassword2']);
+  echo $firstName;
+  echo $lastName;
+  echo $email;
+  echo $password;
+/*
 if(isset($_POST['sButton'])){
   session_start();
   $firstName = mysql_real_escape_string($_POST['inputName']);
@@ -13,6 +22,7 @@ if(isset($_POST['sButton'])){
   echo $lastName;
   echo $email;
   echo $password;
+  */
   /*
   $sql1 = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql1);
