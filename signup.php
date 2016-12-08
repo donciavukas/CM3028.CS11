@@ -16,7 +16,7 @@ $sql = "INSERT INTO user (first, last, email, password) VALUES ('$first', '$last
  //     '(first, last, email, password) '.
   //    'VALUES (inputName, inputSurname, inputEmail, inputPassword)';
 
-$result = mysqli_query($db, $sql);
+//mysqli_query($db, $sql);
 
 if (mysqli_query($db, $sql)) {
     echo "success";
@@ -24,10 +24,7 @@ if (mysqli_query($db, $sql)) {
     echo "Error creating table: " . mysqli_error($conn);
 }
 
-/*
-mysqli_query($db,"SELECT * FROM users");
-mysqli_query($db,"INSERT INTO users (first,last,email, password) 
-VALUES ('s', 'd', 'h@gmail.com', 'g')");
+
 header("Location: index.php");
 mysqli_close($db);
-*/
+
