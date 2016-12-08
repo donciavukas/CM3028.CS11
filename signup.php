@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 include 'DBCONNECT.php';
 session_start();
 if(isset($_POST['sButton'])){
@@ -14,8 +17,8 @@ if(isset($_POST['sButton'])){
   echo mysqli_num_rows($result);
  
   if(($password == $password2)&&(mysqli_num_rows($result)=0)){
-    $sql1 = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
-    mysqli_query($db, $sql1);
+    $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
+    mysqli_query($db, $sql);
     echo 'mldc';
     //header("Location: index.php");
   }else{
