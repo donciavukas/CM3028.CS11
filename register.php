@@ -45,7 +45,7 @@ session_start();
             <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="index.php">Home</a></li>
             <li role="presentation"><a href="clubs.php">Clubs</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
+            <li role="presentation"><a href="pswMissMatch.php">Contact</a></li>
           </ul>      
           
         </div>
