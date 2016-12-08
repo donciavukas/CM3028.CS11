@@ -60,7 +60,7 @@
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
-            <button type="submit" class="btn btn-success" href="register.php"> Register</button>
+            <button type="button" class="btn btn-success" href="register.php"> Register</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
