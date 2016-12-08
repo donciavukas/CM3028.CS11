@@ -9,7 +9,7 @@ if(isset($_POST['sButton'])){
   $password = $_POST['inputPassword'];
   $password2 = $_POST['inputPassword2'];
  
-  $sql = "SELECT email FROM user WHERE email = $email";
+  $sql = "SELECT email FROM user WHERE email = '$email'";
   $result = mysqli_query($db, $sql);
  
   if(($password == $password2)&&(mysqli_num_rows($result)>0)){
