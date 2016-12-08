@@ -75,7 +75,7 @@ session_start();
     <div class = "container">
       <div class = "row">
     <div class="form-group">
-      <form class="form-signin" action="signup.php" method="POST">
+      <form class="form-signin" action="login.php" method="POST">
         <h2 class="form-signin-heading">Register new user</h2>
         <label for="inputName" class="sr-only">Name</label>
         <input type="name" name="inputName" class="form-control" placeholder="Name" required autofocus>
