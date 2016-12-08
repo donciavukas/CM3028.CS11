@@ -1,7 +1,8 @@
 <?php
 include 'DBCONNECT.php';
-
+session_start();
 if(isset($_POST['sButton'])){
+  session_start();
   $firstName = $_POST['inputName'];
   $lastName = $_POST['inputSurname'];
   $email = $_POST['inputEmail'];
