@@ -22,7 +22,7 @@ if(isset($_POST['sButton'])){
     echo 'mldc';
     //header("Location: index.php");
   }else{
-     $_SESSION['message'] = "The two passwords did not match";
+    // $_SESSION['message'] = "The two passwords did not match";
      echo 'ciulpk';
      //header("Location: register.php");
   }
