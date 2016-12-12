@@ -17,13 +17,12 @@ if(isset($_POST['sButton'])){
   //echo mysqli_num_rows($result);
  
   if(($password == $password2)&&(mysqli_num_rows($result)==0)){
+    $password = md5($password);
     $sql = "INSERT INTO user (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
     mysqli_query($db, $sql);
-    //echo 'mldc';
     header("Location: index.php");
   }else{
      $_SESSION['message'] = "The two passwords did not match";
-     //echo 'ciulpk';
      header("Location: register.php");
   }
 }
