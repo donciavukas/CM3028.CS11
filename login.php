@@ -9,7 +9,8 @@
 	$result = mysqli_query($db,$sql);
 
 	if(!$row = mysqli_fetch_assoc($result)){
-		echo "Incorrect redirecting in 5 seconds";
+		echo "Incorrect details";
+    echo "Redirecting in 5 seconds";
     header( "refresh:5;url=index.php" );
 	}else{
     $_SESSION['id'] = $row['id'];
