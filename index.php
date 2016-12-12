@@ -52,9 +52,8 @@
           <div class="form-group" id = "loginTest">
             <?php if (isset($_SESSION['id'])){ ?>
             
-          <p class="navbar-text">Logged in as</p> 
           <form class="navbar-form navbar-right" action="logout.php">        
-
+            <p class="navbar-text">Logged in as <?php echo '$_SESSION['firstName']';?></p>
             <button type="submit" class="btn btn-danger">Logout</button>
           </form>
 
