@@ -50,7 +50,7 @@
        
           <div class="form-group" id = "loginTest">
           <?php
-          if(false){
+          if(1=2){
             echo "hi";
           }echo{
           '<form class="navbar-form navbar-right" action="login.php" method="POST">    
