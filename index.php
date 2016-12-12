@@ -53,7 +53,7 @@
             <?php if (isset($_SESSION['id'])){ ?>
             
           <form class="navbar-form navbar-right" action="logout.php">        
-            <p class="navbar-text">Logged in as <?php echo $_SESSION['firstName'];?></p>
+            <p class="navbar-text">Welcome, <?php echo $_SESSION['firstName'];?></p>
             <button type="submit" class="btn btn-danger">Logout</button>
           </form>
 
