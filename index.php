@@ -49,11 +49,11 @@
         
        
           <div class="form-group" id = "loginTest">
-            <?php if (true){ ?>
+            <?php if (isset($_SESSION['id'])){ 
 
-           
+           echo $_SESSION['id'];
 
-            <?php } else { ?>
+             } else { ?>
 
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
