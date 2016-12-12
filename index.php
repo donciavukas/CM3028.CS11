@@ -49,7 +49,7 @@
         
        
           <div class="form-group" id = "loginTest">
-          <?php if(1=2){?>
+          <?php if(true){?>
             hi
           <?php }else{ ?>
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
