@@ -50,8 +50,8 @@
        
           <div class="form-group" id = "loginTest">
           <?php
-          if(){
-            
+          if(true){
+            echo 'hi';
           }echo
           '<form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
