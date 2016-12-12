@@ -54,8 +54,7 @@
 
           <form class="navbar-form navbar-right" action="logout.php">        
 
-            <button type="submit" class="btn btn-success">Sign in</button>
-            <a class="btn btn-default" href="register.php">Register</a>
+            <button type="submit" class="btn btn-danger">Logout</button>
           </form>
 
             <?php } else { ?>
