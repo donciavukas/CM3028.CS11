@@ -12,6 +12,7 @@
 		echo "Incorrect";
 	}else{
     $_SESSION['id'] = $row['id'];
+    $_SESSION['firstName'] = $row['firstName'];
 		header("Location: index.php");
 	}
 
