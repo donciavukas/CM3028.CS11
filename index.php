@@ -3,6 +3,7 @@
   
   <head>
     <?php
+    session_start();
     include("dbconnect.php")
       ?>
     <meta charset="utf-8">
