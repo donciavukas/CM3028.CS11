@@ -50,11 +50,15 @@
         
        
           <div class="form-group" id = "loginTest">
-            <?php if (isset($_SESSION['id'])){ 
+            <?php if (isset($_SESSION['id'])){ ?>
 
-           echo $_SESSION['id'];
+          <form class="navbar-form navbar-right" action="logout.php">        
 
-             } else { ?>
+            <button type="submit" class="btn btn-success">Sign in</button>
+            <a class="btn btn-default" href="register.php">Register</a>
+          </form>
+
+            <?php } else { ?>
 
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
