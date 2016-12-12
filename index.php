@@ -60,7 +60,7 @@
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
             <a class="btn btn-default" href="register.php">Register</a>
-          </form>'
+          </form>';
           }
           ?>
           </div>
