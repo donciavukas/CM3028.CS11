@@ -49,20 +49,17 @@
         
        
           <div class="form-group" id = "loginTest">
-          <?php
-          if(1=2){
-            echo "hi";
-          }else{
-          echo '<form class="navbar-form navbar-right" action="login.php" method="POST">    
+          <?php if(1=2){?>
+            hi
+          <?php }else ?>
+          <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control" name = "inputPassword">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
             <a class="btn btn-default" href="register.php">Register</a>
-          </form>';
-          }
-          ?>
+          </form>
           </div>
       </div>
     </nav>
