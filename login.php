@@ -3,7 +3,7 @@
   session_start();
 
 	$email = $_POST ['inputEmail'];
-	$password = $_POST ['inputPassword'];
+	$password = md5($_POST ['inputPassword']);
 
 	$sql = "SELECT * FROM user WHERE (email = '$email') AND (password='$password')";
 	$result = mysqli_query($db,$sql);
