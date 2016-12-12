@@ -37,10 +37,10 @@
   </head>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header text-center">        
+        <div class="navbar-header">        
           <a class="navbar-brand" href="index.php">Go Porthlen</a>
           
-            <ul class="nav nav-pills center-pills pull-right">
+            <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.php">Home</a></li>
             <li role="presentation"><a href="clubs.php">Clubs</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
