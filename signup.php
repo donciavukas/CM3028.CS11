@@ -6,11 +6,12 @@ include 'DBCONNECT.php';
 session_start();
 if(isset($_POST['sButton'])){
   session_start();
-  $firstName = $_POST['inputName'];
-  $lastName = $_POST['inputSurname'];
-  $email = $_POST['inputEmail'];
-  $password = $_POST['inputPassword'];
-  $password2 = $_POST['inputPassword2'];
+  
+  $firstName = mysqli_real_escape_string($db, $_POST['inputName']);
+  $lastName = mysqli_real_escape_string($db, $_POST['inputSurname']);
+  $email = mysqli_real_escape_string($db, $_POST['inputEmail']);
+  $password = mysqli_real_escape_string($db, $_POST['inputPassword']);
+  $password2 = mysqli_real_escape_string($db, $_POST['inputPassword2']);
  
   $sql = "SELECT email FROM user WHERE (email = '$email')";
   $result = mysqli_query($db, $sql);
