@@ -2,8 +2,9 @@
 	include 'DBCONNECT.php';
   session_start();
 
-	$email = $_POST ['inputEmail'];
-	$password = md5($_POST ['inputPassword']);
+	$email = mysqli_real_escape_string($db ,$_POST['inputEmail']);
+  $password = mysqli_real_escape_string($db ,['inputPassword']);
+	$password = md5($password);
 
 	$sql = "SELECT * FROM user WHERE (email = '$email') AND (password='$password')";
 	$result = mysqli_query($db,$sql);
