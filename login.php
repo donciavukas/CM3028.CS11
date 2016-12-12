@@ -11,6 +11,7 @@
 	if(!$row = mysqli_fetch_assoc($result)){
 		echo "Incorrect";
 	}else{
+    $_SESSION['id'] = $row['id'];
 		echo "Logged in";
 	}
 
