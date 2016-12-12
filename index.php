@@ -51,7 +51,7 @@
           <div class="form-group" id = "loginTest">
           <?php if(1=2){?>
             hi
-          <?php }else ?>
+          <?php }else{ ?>
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
@@ -60,6 +60,7 @@
             <button type="submit" class="btn btn-success">Sign in</button>
             <a class="btn btn-default" href="register.php">Register</a>
           </form>
+          <?php>}?>
           </div>
       </div>
     </nav>
