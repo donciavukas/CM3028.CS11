@@ -52,8 +52,8 @@
           <?php
           if(1=2){
             echo "hi";
-          }echo{
-          '<form class="navbar-form navbar-right" action="login.php" method="POST">    
+          }else{
+          echo '<form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control" name = "inputPassword">
