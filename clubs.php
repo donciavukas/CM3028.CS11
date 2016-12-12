@@ -51,16 +51,25 @@
         
         
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
+            <?php if (isset($_SESSION['id'])){ ?>
+
+          <form class="navbar-form navbar-right" action="logout.php">        
+
+            <button type="submit" class="btn btn-danger">Logout</button>
+          </form>
+
+            <?php } else { ?>
+
+          <form class="navbar-form navbar-right" action="login.php" method="POST">    
+              <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="password" placeholder="Password" class="form-control" name = "inputPassword">
             </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success"href="login.php">Sign in</button>
+            <button type="submit" class="btn btn-success">Sign in</button>
             <a class="btn btn-default" href="register.php">Register</a>
           </form>
+
+            <?php } ?>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
