@@ -49,8 +49,8 @@
         
        
           <div class="form-group" id = "loginTest">
-          <?php if(1=2){?>
-            
+          <?php if(1=1){?>
+            <p>sss</p>
           <?php }else{ ?>
           <form class="navbar-form navbar-right" action="login.php" method="POST">    
               <input type="text" placeholder="Email" class="form-control" name = "inputEmail">    
